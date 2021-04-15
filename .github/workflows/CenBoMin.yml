@@ -1,4 +1,4 @@
-name: CenBoMin-sync
+name: CenBoMin-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
