@@ -1,4 +1,4 @@
-name: chavyleung-sync
+name: chavyleung-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
