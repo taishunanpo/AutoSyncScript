@@ -1,4 +1,4 @@
-name: id77-sync
+name: id77-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
