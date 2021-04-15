@@ -1,4 +1,4 @@
-name: Peng-YM-sync
+name: Peng-YM-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
