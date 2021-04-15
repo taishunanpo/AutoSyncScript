@@ -1,4 +1,4 @@
-name: feizao-sync
+name: feizao-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
