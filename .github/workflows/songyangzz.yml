@@ -1,4 +1,4 @@
-name: songyangzz-sync
+name: songyangzz-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
