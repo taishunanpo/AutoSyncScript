@@ -1,4 +1,4 @@
-name: lowking-sync
+name: lowking-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
