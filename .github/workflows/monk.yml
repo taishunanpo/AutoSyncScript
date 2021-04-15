@@ -1,4 +1,4 @@
-name: monk-coder-sync
+name: monk-coder-sync 
 on:
   schedule:
     - cron: '17 */3 * * *'
