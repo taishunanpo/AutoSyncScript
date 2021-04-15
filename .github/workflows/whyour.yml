@@ -1,4 +1,4 @@
-name: whyour-sync
+name: whyour-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
