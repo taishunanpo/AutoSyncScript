@@ -1,4 +1,4 @@
-name: toulanboy-sync
+name: toulanboy-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
