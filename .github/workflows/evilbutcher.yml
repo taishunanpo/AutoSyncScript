@@ -1,4 +1,4 @@
-name: evilbutcher-sync
+name: evilbutcher-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
