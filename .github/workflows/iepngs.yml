@@ -1,4 +1,4 @@
-name: iepngs-sync
+name: iepngs-sync 
 on:
   schedule:
     - cron: '1 */3 * * *'
