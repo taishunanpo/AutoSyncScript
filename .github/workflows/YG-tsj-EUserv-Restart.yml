@@ -1,4 +1,4 @@
-name: YG-tsj-EUserv-Restart-sync 
+name: YG-tsj-EUserv-Restart-sync  
 on:
   schedule:
     - cron: '1 */3 * * *'
