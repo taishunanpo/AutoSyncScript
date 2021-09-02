@@ -1,4 +1,4 @@
-name: Zy143L-sync 
+name: ztxtop-sync 
 on:
   schedule:
     - cron: '25 */3 * * *'
@@ -6,7 +6,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-Zy143L-wskey
+    types: sync-ztxtop-x
 jobs:
   repo-sync:
     env:
@@ -18,11 +18,11 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: sync Zy143L-wskey
+      - name: sync ztxtop-x
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/Zy143L/wskey.git"
+          source_repo: "https://github.com/ztxtop/x.git"
           source_branch: "main"
-          destination_branch: "Zy143L"
+          destination_branch: "ztxtop"
           github_token: ${{ secrets.PAT }}
